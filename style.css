@@ -1,0 +1,45 @@
+section{
+    border: 1px solid black;
+    width: 25%;
+    height: 500px;
+    margin: auto;
+}
+h1{
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: rgb( 255, 195, 0);
+    text-align: center;
+}
+
+p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+main{
+    margin-top: 10px;
+}
+
+.contenedor-titulo{
+    position: absolute;
+    left: 45%;
+    width: 10%;
+}
+.contenedor{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    top: 43px;
+    left: 38%;
+    flex-direction: column;
+    background-color: rgb( 255, 195, 0);
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.squirtle{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
